@@ -17,3 +17,5 @@ print(n[0:2])
 print(n[2:])
 print(n[2])
 print(len(n))
+name="Akash"
+print(name[::-1])
