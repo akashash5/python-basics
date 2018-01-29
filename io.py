@@ -1,0 +1,5 @@
+num1=int(input('Enter num 1'))
+num2=int(input('Enter num 2 '))
+print("Addition ",num1+num2)
+name=input('Enter name ')
+print("Addition ",num1+num2,name)
