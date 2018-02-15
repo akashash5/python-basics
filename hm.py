@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-n=10000
+n=100000
 x= np.random.uniform(low=50.0, high=100.0, size=(n,))
 y= np.random.uniform(low=50.0, high=100.0, size=(n,))
 fig, ax = plt.subplots()
