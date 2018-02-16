@@ -5,5 +5,7 @@ headers=["symboling","normalized-losses","make","fuel-type","aspiration","num-of
 df.columns=headers
 print(df.head())
 print(df.dtypes)
-
-
+print(df["symboling"]+1)
+df.dropna(subset=["price"],axis=0,inplace=True)
+df.dropna(subset=["price"],axis=0)
+print(df)
