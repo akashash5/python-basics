@@ -6,7 +6,7 @@ class Car:
     def display(self):
         print('color: ',self.color, ' price: ', self.price)
 
-l=str(input('Enter color'))
-b=str(input('Enter price'))
-r=Car(l,b)
+c=str(input('Enter color'))
+p=str(input('Enter price'))
+r=Car(c,p)
 r.display() 
