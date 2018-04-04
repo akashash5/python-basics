@@ -5,8 +5,10 @@ class Rectangle:
     def calc(self):
         self.area=self.length*self.breadth
     def display(self):
-        print(self.length, ' ', self.breadth,' ', self.area)
+        print('length: ',self.length, ' breadth: ', self.breadth,' area: ', self.area)
 
-r=Rectangle(10,20)
+l=int(input('Enter length'))
+b=int(input('Enter breadth'))
+r=Rectangle(l,b)
 r.calc()
 r.display() 
